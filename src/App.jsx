@@ -1,7 +1,8 @@
 import logo from './logo.svg';
-import NavBar from './componentes/NavBar';
+import NavBar from './Componentes/NavBar/NavBar';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Titulo from './Titulo/Titulo';
+import Titulo from './Componentes/Titulo/Titulo';
+
 
 function App() {
 
