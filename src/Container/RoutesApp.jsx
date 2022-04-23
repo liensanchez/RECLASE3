@@ -1,5 +1,4 @@
 import React from 'react'
-import ItemCount from '../Component/ItemCount/ItemCount'
 import ItemListContainer from '../Component/ItemListContainer/ItemListContainer'
 import NavBar from '../Component/NavBar/NavBar'
 import Titulo from '../Component/Titulo/Titulo'
@@ -22,7 +21,7 @@ function RoutesApp() {
 
     <ItemListContainer greeting='esta es una prop llamada greeting'/>
 
-    <ItemCount/>
+    
 
     </div>
 
