@@ -18,8 +18,13 @@ function NavBar() {
                 <NavDropdown.Item href="#action/3.2">Samsung</NavDropdown.Item>
               </NavDropdown>
             </Nav>
+
+            <Nav.Link className="justify-content-end">Carrito</Nav.Link>
+
+            <Nav.Link className="justify-content-end">Usuario</Nav.Link>    
           </Navbar.Collapse>
         </Container>
+
       </Navbar>
     </>
 
