@@ -3,7 +3,7 @@ import {useState, useEffect} from 'react'
 
 function ItemCount() {
   const [ count, setCount] = useState(0)
-  //con el array nombramo lo q va dentro del useState,van 2 cosas, lo que ponemos y una funcion, nombrandolo en un array nos facilita su uso despues, 
+  //con el array nombramos lo q va dentro del useState,van 2 cosas, lo que ponemos y una funcion, nombrandolo en un array nos facilita su uso despues, 
   //nombramos count y por convencion tenemos que usar SET, entonces ahora la funcion se llama setCount
 
   const[bool, setBool]= useState(true)
